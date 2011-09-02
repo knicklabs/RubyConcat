@@ -27,9 +27,9 @@ paths to the location of concat.rb.
 The manifest file should be a plain text file. List one script per line. Use relative paths. The 
 manifest must be included but can be blank. Here's an example of how the file should be formatted:
 
-libs/jquery-1.6.2.js
+`libs/jquery-1.6.2.js
 libs/backbone.js
-src/startup.js
+src/startup.js`
 
 ## Typical Project Directory Structure
 
