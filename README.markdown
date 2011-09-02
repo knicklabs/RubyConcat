@@ -49,6 +49,14 @@ ruby concat.rb <manifest> <source> <destination>
 	
 Example: ruby concat.rb manifest.txt src build/output.js
 
+## Testing
+
+This script comes packaged with two basic tests. Run them and confirm that the output in the build folder is as 
+expected.
+
+ruby concat.rb test/manifest.txt test/src test/build/test_results.js
+ruby concat.rb test2/manifest.txt test2/src test2/build/test_results.js
+
 ## Copyright and License
 
 # Copyright 2011 Nickolas Kenyeres
