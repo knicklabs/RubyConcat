@@ -28,34 +28,43 @@ The manifest file should be a plain text file. List one script per line. Use rel
 manifest must be included but can be blank. Here's an example of how the file should be formatted:
 
 `libs/jquery-1.6.2.js
+
 libs/backbone.js
+
 src/startup.js`
 
 ## Typical Project Directory Structure
 
 Here's an example of a typical directory structure for a javascript project:
 
-manifest.txt
+`manifest.txt
+
 src/
+
 src/controllers
+
 src/models
+
 src/views
+
 libs/
-build/
+
+build/`
 
 ## Basic Usage
 
-ruby concat.rb <manifest> <source> <destination>
+`ruby concat.rb <manifest> <source> <destination>`
 	
-Example: ruby concat.rb manifest.txt src build/output.js
+Example: `ruby concat.rb manifest.txt src build/output.js`
 
 ## Testing
 
 This script comes packaged with two basic tests. Run them and confirm that the output in the build folder is as 
 expected.
 
-ruby concat.rb test/manifest.txt test/src test/build/test_results.js
-ruby concat.rb test2/manifest.txt test2/src test2/build/test_results.js
+`ruby concat.rb test/manifest.txt test/src test/build/test_results.js`
+
+`ruby concat.rb test2/manifest.txt test2/src test2/build/test_results.js`
 
 ## Copyright and License
 
