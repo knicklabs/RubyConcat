@@ -1,3 +1,5 @@
+**This project is no longer actively maintained. It has been superseded by [NodeConcat](http://knicklabs.github.com/NodeConcat).**
+
 # Ruby Concat
 
 Ruby Concat is a command line build script useful for building javascript projects. It will work with other 
